@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto+Mono:wght@300&family=Ubuntu&display=swap');
+:root {
+  --font-family: 'Fira Sans', sans-serif;
+  --font-family-text: 'Ubuntu', sans-serif;
+  --color2: #fdeff4;
+  --color-bg: #1b1b1b;
+  --color-text: #ffa4b6;
+  --text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: 0;
+  box-sizing: 0;
+}
+
+body {
+  background: #0c0c0c;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.color--bg {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}

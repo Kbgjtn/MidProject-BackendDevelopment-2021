@@ -1,0 +1,41 @@
+.course-coming-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #fdeff4;
+  margin: 2rem;
+}
+
+.course-coming-title {
+  flex: 1;
+}
+
+.course-coming-title h1 {
+  font-family: var(--font-family-text);
+  font-weight: 650;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fdeff4;
+}
+
+.course-coming-title div {
+  width: 100%;
+  height: 2px;
+  background: #ffa4b6;
+  margin-bottom: 0.45rem;
+}
+
+.course-coming-text {
+  flex: 2;
+  display: flex;
+}
+
+.course-coming-text p {
+  font-family: (--font-family-text);
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+}
