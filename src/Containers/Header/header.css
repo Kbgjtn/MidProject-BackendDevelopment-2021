@@ -109,8 +109,5 @@
   .header-content-head1 {
     font-size: 56px;
   }
-  .header-content {
-    /* posisi header-content */
-    margin-top: -8rem;
-  }
+
 }
