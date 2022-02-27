@@ -1,20 +1,13 @@
 import React from 'react';
-import { Content, Navbar, Header, Footer } from './Containers';
+import { Content, Navbar, Header, Footer, Landing } from './Containers';
 import './App.css';
-import Index from './Containers/login';
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import LandingPage from './Pages/Landingpage/LandingPage';
 
 const App = () => {
   return (
     <div className='App'>
-      <div className='header color--bg'>
-        <Navbar />
-        <Header />
-      </div>
-      <div>
-        <Content />
-        <Footer />
-      </div>
-      {/* <Index /> */}
+      <LandingPage />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import { motion } from 'framer-motion';
-import bgHeader from '../../assests/people.png';
+import bgHeader from '../../Assests/people.png';
 
 const animateFormEmail = {
   hidden: {

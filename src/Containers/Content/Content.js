@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './content.css';
 import Course from '../../Components/Course/Course';
-import contentBg from '../../assests/object.png';
+import contentBg from '../../Assests/object.png';
 import { motion } from 'framer-motion';
 import { useCycle } from "framer-motion";
 

@@ -4,7 +4,7 @@ import {} from 'react-icons/ri';
 import './navbar.css';
 import { motion } from 'framer-motion';
 import Bowl from './Bowl';
-import LoginPage from '../login';
+import { Link } from 'react-router-dom';
 const animateNavLinks = {
   whileHover: {
     scale: 1.15,
@@ -77,7 +77,7 @@ const Navbar = () => {
               color: '#FF5C8D',
             }}
           >
-            <a href='#home'>.Home()</a>
+            <Link to='/home'>.Home()</Link>
           </motion.p>
           <motion.p
             whileHover={{
@@ -85,7 +85,7 @@ const Navbar = () => {
               color: '#FF5C8D',
             }}
           >
-            <a href='#course'>.Course()</a>
+            <Link to='/course'>.Course()</Link>
           </motion.p>
           <motion.p
             whileHover={{
@@ -93,7 +93,7 @@ const Navbar = () => {
               color: '#FF5C8D',
             }}
           >
-            <a href='#about'>.About()</a>
+            <Link to='/about'>.About</Link>
           </motion.p>
         </motion.div>
       </div>
@@ -114,25 +114,27 @@ const Navbar = () => {
             stiffness: 1600,
           }}
         >
-          .Sign-in()
+          <Link to='/signup'>.Sign-up()</Link>
         </motion.p>
-        <motion.button
-          className='navbar-links-containers-button'
-          type='button'
-          whileHover={{
-            scale: 1.07,
-            textShadow: '0px 1px 1px rgb(33, 33, 33)',
-            boxShadow: '0px 0px 8px rgb(182, 113, 113)',
-          }}
-          initial={{ x: '100vw' }}
-          animate={{ x: 0 }}
-          transition={{
-            type: 'spring',
-            stiffness: 1600,
-          }}
-        >
-          .Sign-up
-        </motion.button>
+        <Link to='/signin'>
+          <motion.button
+            className='navbar-links-containers-button'
+            type='button'
+            whileHover={{
+              scale: 1.07,
+              textShadow: '0px 1px 1px rgb(33, 33, 33)',
+              boxShadow: '0px 0px 8px rgb(182, 113, 113)',
+            }}
+            initial={{ x: '100vw' }}
+            animate={{ x: 0 }}
+            transition={{
+              type: 'spring',
+              stiffness: 1600,
+            }}
+          >
+            .Sign-in
+          </motion.button>
+        </Link>
       </div>
     </div>
   );

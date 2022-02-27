@@ -1,6 +1,6 @@
 .footer-section-container {
   display: flex;
-  align-items: center ;
+  align-items: center;
   text-align: center;
   color: #fdeff4;
   background: #0c0c0c;
@@ -20,21 +20,17 @@
 .footer-div-links {
   cursor: pointer;
   width: 300px;
-
 }
 
 .footer-links-company {
   cursor: pointer;
   width: 300px;
-
 }
 
 .footer-links-info {
   cursor: pointer;
   width: 300px;
-
 }
-
 
 .footer-div-links h4,
 .footer-links-company h4,
@@ -46,11 +42,8 @@
   margin-bottom: 5px;
   color: #fdeff4;
   padding: 5px 0;
-  cursor :default;
-
+  cursor: default;
 }
-
-
 
 .footer-cpyrght {
   display: flex;

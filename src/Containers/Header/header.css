@@ -1,5 +1,8 @@
 .header-section {
   display: flex;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #313030, #000000);
 }
 
 .header-content {
@@ -109,5 +112,4 @@
   .header-content-head1 {
     font-size: 56px;
   }
-
 }

@@ -1,10 +1,13 @@
-import React from 'react'
-import './signup.css'
+import React from 'react';
+import './signup.css';
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
     <div className='signup-card'>
-      <h1 className='signup-title'>Sign Up</h1>
+      <Link to='/signup' className='signup-title'>
+        Sign Up
+      </Link>
       <div className='signup-form'>
         <input type={'text'} placeholder={'Username'} />
         <input type={'text'} placeholder={'FullName'} />
@@ -14,6 +17,6 @@ const Signup = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Signup
+export default Signup;

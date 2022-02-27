@@ -6,12 +6,12 @@
   flex-direction: column;
   color: #fdeff4;
   /* margin: 2rem;   */
-  background-color: rgba(27, 27, 27, .3);
+  background-color: rgba(27, 27, 27, 0.3);
   height: 150px;
   width: 400px;
   padding: 25px 25px;
   justify-content: center;
-  border: 5px solid rgba(51, 91, 117, .5);
+  border: 5px solid rgba(51, 91, 117, 0.5);
   border-radius: 10px;
 }
 
