@@ -6,14 +6,14 @@ import Index from './Containers/login';
 const App = () => {
   return (
     <div className='App'>
-      {/* <div className='header color--bg'>
+      <div className='header color--bg'>
         <Navbar />
         <Header />
       </div>
       <div>
         <Content />
         <Footer />
-      </div> */}
+      </div>
       <Index />
     </div>
   );

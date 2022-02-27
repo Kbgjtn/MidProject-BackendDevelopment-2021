@@ -10,7 +10,7 @@ const Login = () => {
 
   return (
     <div className='login-card'>
-      <h1 className='login-title'>Log In</h1>
+      <h1 className='login-title'>Sign In</h1>
       <div className='login-form'>
         <input type={'text'} placeholder={'Your Email'} />
         <input type={'password'} placeholder={'Your Password'} />

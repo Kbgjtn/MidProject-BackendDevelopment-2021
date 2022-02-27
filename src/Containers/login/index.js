@@ -1,31 +1,40 @@
 import React, { useState } from 'react';
 import Login from './login';
 import Signup from './Signup';
+import './index.css';
+
+
 
 const Index = () => {
   const [login, setLogin] = useState(true);
   const [signUp, setSignUp] = useState(false);
+  // const [control,setControl] = useState(true)
 
   const loginController = () => {
-    setSignUp((prev) => !prev);
-    setLogin((prev) => !prev);
+    setSignUp(() => false);
+    setLogin(() => true);
   };
   const signUpController = () => {
-    setSignUp((prev) => !prev);
-    setLogin((prev) => !prev);
+    setSignUp(() => true);
+    setLogin(() => false);
   };
+  // const controller = () => {
+  //   setControl((prev)=> !prev)
+  // };
 
   return (
-    <>
+    <div className='sign-page'>
       <div className='navigation'>
         <button onClick={loginController}>Sign In</button>
         <button onClick={signUpController}>Sign Up</button>
+        {/* <button onClick={controller}> Up</button> */}
       </div>
       <>
         {login ? <Login /> : ''}
         {signUp ? <Signup /> : ''}
+        {/* {control ? <Login /> : <Signup />} */}
       </>
-    </>
+    </div>
   );
 };
 

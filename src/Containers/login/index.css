@@ -1,0 +1,25 @@
+.sign-page {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: calc(100vh - 200px);
+}
+
+.navigation {
+ margin-bottom: 10px;
+}
+.navigation button{
+ margin: 10px;
+ padding: 5px 20px;
+ border-radius: 25px;
+ background-color: black;
+ color: var(--color-text);
+ outline: none;
+ border: 1px solid var(--color-text);
+
+}
+button{
+ font-family: var(--font-family-text);
+
+}

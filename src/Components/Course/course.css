@@ -1,11 +1,15 @@
 .course-coming-section {
   width: 100%;
   display: flex;
-  align-items: center;
-  text-align: center;
+  /* align-items: center; */
+  /* text-align: center; */
   flex-direction: column;
   color: #fdeff4;
-  margin: 2rem;
+  /* margin: 2rem;   */
+  background-color: rgba(#1b1b1b,1);
+  height: 200px;
+  width: 400px;
+  padding: 10px;
 }
 
 .course-coming-title {
