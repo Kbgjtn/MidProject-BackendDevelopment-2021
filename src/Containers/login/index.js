@@ -5,7 +5,7 @@ import './index.css';
 
 
 
-const Index = () => {
+const LoginPage = () => {
   const [login, setLogin] = useState(true);
   const [signUp, setSignUp] = useState(false);
   // const [control,setControl] = useState(true)
@@ -38,4 +38,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default LoginPage;

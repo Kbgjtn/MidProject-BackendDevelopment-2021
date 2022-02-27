@@ -4,6 +4,7 @@ import {} from 'react-icons/ri';
 import './navbar.css';
 import { motion } from 'framer-motion';
 import Bowl from './Bowl';
+import LoginPage from '../login';
 const animateNavLinks = {
   whileHover: {
     scale: 1.15,

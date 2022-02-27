@@ -1,15 +1,18 @@
 .course-coming-section {
   width: 100%;
   display: flex;
-  /* align-items: center; */
-  /* text-align: center; */
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   color: #fdeff4;
   /* margin: 2rem;   */
-  background-color: rgba(#1b1b1b,1);
-  height: 200px;
+  background-color: rgba(27, 27, 27, .3);
+  height: 150px;
   width: 400px;
-  padding: 10px;
+  padding: 25px 25px;
+  justify-content: center;
+  border: 5px solid rgba(51, 91, 117, .5);
+  border-radius: 10px;
 }
 
 .course-coming-title {
@@ -22,6 +25,7 @@
   font-size: 18px;
   line-height: 25px;
   color: #fdeff4;
+  padding-bottom: 5px;
 }
 
 .course-coming-title div {
